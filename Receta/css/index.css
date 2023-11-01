@@ -1,0 +1,180 @@
+/******************************************************************/
+/* HOJA DE ESTILO DE INDEX.HTML PARA MI PÁGINA WEB DE LA RECETA */
+/* Autor Alejandro Barnestein Martos */
+/* Versión 1.0 */
+/******************************************************************/
+
+@font-face {
+    font-family: titulos;
+    src: url(../font/oyen.regular.ttf);
+}
+
+@font-face {
+    font-family: textos;
+    src: url(../font/tex-gyre-adventor.regular.otf);
+}
+
+body {
+ margin:0;padding:0;    
+}
+
+#wrapper {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 2%;
+    background-color: #F7EDD4;
+    color: #2E3409;
+    padding-top: 1%;
+  
+
+}
+
+#titulo {
+    color:#513A01
+    ;
+    margin: auto;
+    text-align: center;
+    font-family: titulos;
+    border: solid 5px #2E3409;
+    background-color: #FBF6E9;
+    margin: 0% 17% 0% 17%;
+    padding: 2% 5% 2% 5% ;
+    font-size: 70px;
+    box-shadow: 0 5px 18px 0 grey;
+    text-shadow: #CBE432 4px 4px ;
+   
+}
+
+#cita {
+    font-family: textos;
+    border: solid 5px #2E3409;
+    background-color: #FBF6E9;
+    margin-left: 5%;
+    margin-right: 70%;
+    margin-bottom:2%;
+    margin-top: 2%;
+    padding-left: 1%;
+    padding-top: 1%;
+    box-shadow: 0 5px 18px 0 grey;
+    background:url(../img/repeatfilete.jpg);
+    width: 400px;
+    height: 300px;
+    background-size: cover;
+    background-position: top;
+}
+
+#img_hero img{
+   width: 50%;
+   
+   
+
+   border: solid 5px #2E3409;
+   box-shadow: 0 5px 18px 0 grey;
+   margin-top: 2%;
+   position: relative;
+   top: 50%;
+   left: 50%;
+   display: grid;
+   transform: translate(-50%,0);
+   
+}
+
+#Lista {
+    font-family: textos;
+    border: solid 5px #2E3409;
+    background-color: #FBF6E9;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-bottom:2%;
+    margin-top: 2%;
+    padding-left: 4%;
+    box-shadow: 0 5px 18px 0 grey;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+    
+}
+
+.subtitulo{
+    font-family: titulos;
+    border:solid 5px #2E3409 ;
+    background-color: #fbf6e9;
+    padding: 1% 1% 1% 1%;
+    margin: 2% 75% 2% 5%;
+    box-shadow: 0 5px 18px 0 grey;
+    text-align: center;
+    text-shadow: #CBE432 4px 4px ;
+
+}
+
+.resalte{
+    font-size: 25px;
+    color: #CBE432;
+    
+}
+
+@media only screen and (width<1000px){
+
+    #img_hero img{
+        width: 50%;
+     }
+     
+     #titulo {
+
+        font-size: 50px;
+        margin: 0% 15% 0% 15%;
+
+     }
+     .subtitulo{
+        padding: 1% 1% 1% 1%;
+        margin: 2% 60% 2% 5%;
+    
+    }
+
+    
+}
+
+@media only screen and (width<700px){
+
+    #titulo {
+
+        font-size: 50px;
+        margin: 0% 7% 0% 7%;
+
+     }
+     #Lista {
+        padding-left: 7%;
+     }
+
+     .subtitulo{
+        padding: 1% 1% 1% 1%;
+        margin: 2% 40% 2% 5%;
+    
+    }
+    
+}
+
+@media only screen and (width<500px){
+    .subtitulo{
+        padding: 2% 2% 2% 2%;
+        margin: 2% 40% 2% 5%;
+    
+    }
+
+    #cita {
+        margin-left: 5%;
+        margin-right: 70%;
+        margin-bottom:2%;
+        margin-top: 2%;
+        padding-left: 1%;
+        padding-top: 1%;
+        box-shadow: 0 5px 18px 0 grey;
+
+        width: 250px;
+        height: 150px;
+        background-size: cover;
+        background-position: top;
+    }
+    
+    
+}
