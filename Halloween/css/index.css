@@ -1,0 +1,134 @@
+/****************************************/
+/* Hoja de estilos de index.html de mi página de Halloween*/
+
+@font-face {
+   font-family: titulos;
+   src: url(../fonts/Halloween\ Spooky.otf);
+}
+
+
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+/* scenario */
+ #scenario {
+    width: 1920px;
+    height: 1000px;
+    background-image: url(../img/hero2laquevale.jpg);
+    margin: auto;
+    background-position: top;
+    
+ }
+
+
+ #moon {
+    width: 695px;
+    height: 695px;
+    /*border: 2px solid white ;*/
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    left: 705px;
+ }
+
+ #calabaza{
+    width: 150px;
+    height: 110px;
+    /*border: 2px solid white;*/
+    position: absolute;
+    bottom: 20px;
+    left:325px
+ }
+
+ #lapida{
+    width: 200px;
+    height: 300px;
+   /* border: 2px solid white;*/
+    position: absolute;
+    bottom: 150px;
+    right:275px;
+ }
+
+ #murcielago{
+    position: absolute;
+    top: 50px;
+    left: 905px;
+    visibility: hidden;
+ }
+
+ #zombi{
+    position: absolute;
+    bottom:20px;
+    left: 350px;
+    visibility: hidden;
+    width: 200px;
+ }
+
+
+
+ #cr7{
+   position: absolute;
+   bottom: 150px;
+    right:275px;
+    visibility: hidden;
+ }
+
+
+
+ #textmoon{
+   font-family: titulos;
+   position: absolute;
+   color: white;
+   font-size: 5rem;
+   top:500px ;
+   left: 250px;
+   transition: 1s;
+   animation-name: cambiocolor;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+ }
+ 
+
+ #textmoon:hover{
+   font-size: 7rem;
+ }
+
+ #textocalabaza{
+   font-family: titulos;
+   position: absolute;
+   color: red;
+   font-size: 2rem;
+   top: 30px ;
+   left: 250px;
+   transition: 1s;
+ }
+
+ #textocalabaza:hover{
+   font-size: 4rem;
+   color: white;
+ }
+
+ #textozombie{
+   font-family: titulos;
+   position: absolute;
+   color: white;
+   font-size: 2rem;
+   bottom: 30px ;
+   right: 250px;
+   transition: 1s;
+ }
+
+
+
+ @keyframes cambiocolor {
+   from{opacity:0;
+   color: white;}
+   to{opacity:100;
+   color: red;}
+ }
+

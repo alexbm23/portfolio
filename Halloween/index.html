@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halloween</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <script src="./js/halloween.js"></script>
+</head>
+<body>
+    
+    <!-- This exercise is made just for fun wahahaha!!! -->
+    <!-- WARNING: It´s not RESPONSIVE, only for Computer -->
+    <!-- I have to search for an image, wallpaper image-->
+    <div id="scenario">
+        <!-- We´re going to fix an specific area for an event, for example the moon-->
+        <img id="murcielago" src="./img/bat.gif" alt="bu" >
+        <img id="zombi" src="./img/calabaza.gif" alt="bu" >
+        <img id="cr7" src="./img/zombie.gif">
+        <div id="moon" onmouseover="show('murcielago'); sound('sonidocuervo')" onmouseout="hide('murcielago'); silence('sonidocuervo')">
+            <!-- Nothing inside-->
+        </div>
+        <div id="calabaza" onmouseover="show('zombi'); sound('sonidocalabaza')" onmouseout="hide('zombi'); silence('sonidocalabaza')">
+            <!--nada dentro-->
+        </div>
+        <div id="lapida" onmouseover="show('cr7'); sound('zombiesound')" onmouseout="hide('cr7'); silence('zombiesound')">
+            <!-- Nada dentro-->
+        </div>
+        <audio id="zombiesound" preload>
+            <source src="./sound/zombie-6851.mp3" type="audio/mp3">
+        </audio>
+        <audio id="sonidocuervo" preload>
+            <source src="./sound/raven-call-72946.mp3" type="audio/mp3">
+        </audio>
+        <audio  id="sonidocalabaza" preload>
+            <source src="./sound/no-evidence-of-disease-144022.mp3" type="audio/mp3">
+        </audio>
+        <p id="textmoon">
+            No toques la luna....
+        </p>
+        <p id="textocalabaza"> 
+            Tampoco toques las calabazas
+        </p>
+        <p id="textozombie">
+            Cuidado con las tumbas... Si las tocas puede aparecer algo terrorífico
+        </p>
+    </div>
+
+</body>
+</html>
