@@ -122,6 +122,15 @@ body{
    right: 250px;
    transition: 1s;
  }
+ #textoinvitacion{
+   font-family: titulos;
+   position: absolute;
+   color: white;
+   font-size: 4rem;
+   top: 75px ;
+   right: 220px;
+   transition: 1s;
+ }
 
 
 
