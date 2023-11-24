@@ -1,5 +1,6 @@
 /****************************************/
 /* Hoja de estilos de index.html de mi página de Halloween*/
+/* Autor: Alejandro Barnestein Martos*/
 
 @font-face {
    font-family: titulos;
@@ -15,7 +16,7 @@ body{
 }
 
 
-/* scenario */
+
  #scenario {
     width: 1920px;
     height: 1000px;
@@ -29,7 +30,6 @@ body{
  #moon {
     width: 695px;
     height: 695px;
-    /*border: 2px solid white ;*/
     border-radius: 50%;
     position: absolute;
     top: 15px;
@@ -39,7 +39,6 @@ body{
  #calabaza{
     width: 150px;
     height: 110px;
-    /*border: 2px solid white;*/
     position: absolute;
     bottom: 20px;
     left:325px
@@ -48,7 +47,6 @@ body{
  #lapida{
     width: 200px;
     height: 300px;
-   /* border: 2px solid white;*/
     position: absolute;
     bottom: 150px;
     right:275px;
