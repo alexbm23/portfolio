@@ -1,6 +1,6 @@
 # Los Delinqüentes - Tribute Web Page 
 
-https://alexbm23.github.io/delinquentes/
+https://alexbm23.github.io/portfolio/delinquentes
 
 Memoria del proyecto de Lenguaje de Marcas Bootstrap
 1º DAW - Alejandro Barnestein Martos
